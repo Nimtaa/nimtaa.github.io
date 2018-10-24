@@ -11,7 +11,7 @@ html, body, section, .page {
   transition: all 1s cubic-bezier(.5, -0.005, 0.2, 1) !important;
   -webkit-transition: all 1s cubic-bezier(.5, -0.005, 0.2, 1) !important;
   color: #fff;
-  background: #374046;
+  background: #56585a;
   overflow: hidden;
 }
 
@@ -29,7 +29,7 @@ section {
 
 #p2 {
   left: 100%;
-  background: #FF5722;
+  background: #245f0c;
 }
 
 #p3 {
