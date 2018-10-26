@@ -13,6 +13,7 @@ html, body, section, .page {
   color: #fff;
   background: #56585a;
   overflow: hidden;
+  overflow-y: scroll;
 }
 
 section {
@@ -198,3 +199,10 @@ a {
 .credit a {
 	color: #fff
 }
+
+ .bodytext{
+  margin-top: 205px;
+  margin-left:160;
+  margin-right: 160px;
+  font-size: 19;
+} 
