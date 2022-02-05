@@ -137,10 +137,10 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #787878;
+		color: #000000;
 		font-weight: 400;
 		line-height: 1em;
-		margin: 0 0 1em 0;
+		margin: 0 0 1px 0;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -2597,6 +2597,7 @@ input, select, textarea {
 		}
 
 		#header > .inner {
+			text-align: center;
 			-moz-flex-grow: 1;
 			-webkit-flex-grow: 1;
 			-ms-flex-grow: 1;
@@ -3045,6 +3046,7 @@ input, select, textarea {
 		/* Footer */
 
 			#footer {
+				text-align: center;
 				background-attachment: scroll;
 				background-color: #1f1815;
 				background-image: url("images/overlay.png"), url("../../images/bg.jpg");
@@ -3055,7 +3057,7 @@ input, select, textarea {
 				left: auto;
 				padding: 4em 4em 6em 4em;
 				position: relative;
-				text-align: center;
+				
 				width: 100%;
 			}
 
@@ -3136,6 +3138,7 @@ input, select, textarea {
 		/* Footer */
 
 			#footer {
+				
 				padding: 2.25em 1.5em;
 			}
 
