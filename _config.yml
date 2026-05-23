@@ -1,0 +1,36 @@
+title: Nima Tavassoli
+description: >-
+  Nima Tavassoli — ML Research Assistant at Aarhus University, working on scene
+  graphs in multimodal image and video retrieval.
+author: Nima Tavassoli
+email: nima.tavassoli2@gmail.com
+url: "https://nimtaa.github.io"
+baseurl: ""
+
+# Contact / social (used in the footer)
+github_username: nimtaa
+linkedin_username: nima-tavassoli
+stackoverflow_url: "https://stackoverflow.com/users/10244199/nima-tavassoli"
+
+# Build
+markdown: kramdown
+permalink: /blog/:title/
+future: true
+timezone: Europe/Copenhagen
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - README.md

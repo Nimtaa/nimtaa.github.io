@@ -1,0 +1,16 @@
+---
+layout: default
+title: Posts
+permalink: /posts/
+---
+<section class="posts">
+  <h1>Posts</h1>
+  <ul class="post-list">
+    {% for post in site.posts %}
+    <li>
+      <span class="post-date">{{ post.date | date: "%Y" }}</span>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
